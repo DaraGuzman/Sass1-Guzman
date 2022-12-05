@@ -1,0 +1,23 @@
+.row nav{background: linear-gradient(black,rgba(72, 71, 71, 0.792),gray,black)}
+@media only screen and (max-width:768px){
+    .Logo{width: 8rem;}
+}
+@media only screen and (min-width:1024px){
+    a{font-size: 1.5rem;color: black;transition:all 2s;}
+    a:hover{ background-color: gray;color: white;}
+    .Logo{width:15rem;}
+    @keyframes animacionLogo{
+       0%{transform: rotateX(100deg);}
+       25%{transform: scale(1,1 );}
+       45%{transform: skewX(20deg);}
+       50%{transform: translate3d(35deg);}
+       75%{transform:translateY(35px); }
+       100%{transform: rotate(3deg);}
+   }
+    .Logo{
+        animation-name: animacionLogo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 5s;
+    } 
+}
