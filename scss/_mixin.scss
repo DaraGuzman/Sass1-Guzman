@@ -1,0 +1,8 @@
+@mixin estilofuente($color, $tamaniofuente,$alineacion){
+    color:$color;
+    font-size:$tamaniofuente;
+    text-aling:$alineacion;
+}
+h1{
+    @include estilofuente(rgb(72, 70, 70),20rem , center)
+}
