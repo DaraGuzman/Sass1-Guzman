@@ -1,0 +1,9 @@
+$estilos:(
+    color:gray,
+    centro:center,
+);
+
+.Texto-nosotros{
+    background-color: map-get($estilos,color );
+    text-align: map-get($estilos,centro );
+}
