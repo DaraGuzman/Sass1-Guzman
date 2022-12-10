@@ -1,0 +1,23 @@
+$bgcolorprincipal:000;
+$bgcolorsecundario:gray;
+$bgcolorterciario:rgba(72, 71, 71, 0.792);
+$bgcolortitulo:rgb(90, 88, 88);
+$bgcolortexto:gray;
+$ftextos:sans-serif;
+
+.row nav{background: linear-gradient($bgcolorprincipal,$bgcolorterciario,$bgcolorsecundario,$bgcolorprincipal)}
+.card-body{
+    background-color:$bgcolorprincipal;
+}
+h1 , p { color:$bgcolorsecundario;} 
+.black{color:$bgcolorprincipal}
+form{background: linear-gradient($bgcolorterciario,$bgcolorsecundario,$bgcolorprincipal)}
+footer{
+    background: linear-gradient($bgcolorprincipal,$bgcolorterciario,$bgcolorsecundario,$bgcolorprincipal);
+    .rrss{font-family:$ftextos;}
+    .contacto{font-family:$ftextos;}
+    h2{
+        color:$bgcolorprincipal;
+    }
+}
+    
